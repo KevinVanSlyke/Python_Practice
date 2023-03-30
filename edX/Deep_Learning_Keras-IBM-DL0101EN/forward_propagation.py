@@ -116,4 +116,3 @@ my_network = initialize_network(99, 3, [2, 3, 2], 3)
 inputs = np.around(np.random.uniform(size=99), decimals=2)
 predictions = forward_propagate(my_network, inputs)
 print('The predicted values by the network for the given input are {}'.format(predictions))
-# %%

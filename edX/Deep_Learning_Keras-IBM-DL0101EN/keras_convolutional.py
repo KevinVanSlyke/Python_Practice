@@ -78,4 +78,3 @@ model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_s
 # evaluate the model
 scores = model.evaluate(X_test, y_test, verbose=0)
 print("Accuracy: {} \n Error: {}".format(scores[1], 100-scores[1]*100))
-# %%

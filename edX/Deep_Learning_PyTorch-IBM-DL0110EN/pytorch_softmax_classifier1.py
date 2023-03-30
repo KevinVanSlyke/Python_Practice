@@ -109,4 +109,3 @@ Softmax_fn=nn.Softmax(dim=-1)
 Probability =Softmax_fn(z)
 for i in range(3):
     print("probability of class {} is given by {}".format(i, Probability[0,i]) )
-# %%
