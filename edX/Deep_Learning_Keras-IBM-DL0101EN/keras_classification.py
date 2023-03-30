@@ -1,10 +1,10 @@
-import matplotlib.pyplot as plt
+# %%
 
+import matplotlib.pyplot as plt
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.utils import to_categorical
-
 # import the data
 from keras.datasets import mnist
 
@@ -53,3 +53,4 @@ model.save('classification_model.h5')
 
 from keras.models import load_model
 pretrained_model = load_model('classification_model.h5')
+# %%

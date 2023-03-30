@@ -37,6 +37,4 @@ def regression_model(n_cols):
 predictors_norm, target, n_cols = format_concrete_data()
 model = regression_model(n_cols)
 model.fit(predictors_norm, target, validation_split=0.33, epochs=10, verbose=2)
-
-
 # %%
